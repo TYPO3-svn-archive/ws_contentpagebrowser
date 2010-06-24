@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_wscontentpagebrowser_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="no_ts_template">Extension "ws_contentpagebrowser": please, add extension TypoScript template to the main TypoScript template.</label>
+		</languageKey>
+		<languageKey index="ru" type="array">
+      <label index="no_ts_template">Плагин "ws_contentpagebrowser": пожалуйста, добавте статический TypoScript шаблон в главный TypoScript шаблон.</label>
+    </languageKey>
+	</data>
+</T3locallang>

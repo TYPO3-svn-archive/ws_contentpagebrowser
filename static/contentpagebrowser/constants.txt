@@ -1,0 +1,7 @@
+plugin.tx_wscontentpagebrowser_pi1 {
+  # cat=plugin.tx_wscontentpagebrowser_pi1; type=int; label=Storage pid, where content should be
+  storagePid = 
+  
+  # cat=plugin.tx_wscontentpagebrowser_pi1; type=int; label=Limit content element per page
+  limit = 
+}

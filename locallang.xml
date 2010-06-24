@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'ws_contentpagebrowser'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Content with PageBrowser</label>
+			<label index="pi1_description">Shows the content of a column with pagebrowser</label>
+	<!-- Flexforms -->
+			<label index="flexform.sheets.general.title">Settings</label>      
+			<label index="flexform.sheets.general.storagePid">Page or Sysfolder with Content Elements</label>
+			<label index="flexform.sheets.general.limit">Limit</label>
+		</languageKey>
+		<languageKey index="ru" type="array">
+			<label index="pi1_title">Содержимое с постраничной навигацией</label>
+			<label index="pi1_description">Разбивает содержимое по страницам</label>
+	<!-- Flexforms -->
+			<label index="flexform.sheets.general.title">Настройки</label>      
+			<label index="flexform.sheets.general.storagePid">Страница или Системная папка со контентом</label>
+			<label index="flexform.sheets.general.limit">Количетсво на странице</label>
+	</languageKey>
+	</data>
+</T3locallang>

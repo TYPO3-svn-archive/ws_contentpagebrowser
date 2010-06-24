@@ -1,0 +1,14 @@
+plugin.tx_wscontentpagebrowser_pi1 {
+  storagePid = {$plugin.tx_wscontentpagebrowser_pi1.storagePid}
+  limit = {$plugin.tx_wscontentpagebrowser_pi1.limit}
+
+  content = CONTENT
+  content {
+    table = tt_content
+    select {
+      orderBy = sorting
+      languageField = sys_language_uid
+      where = CType IN ("text","textpic","image","multimedia","media") AND colPos=0
+    }
+  }
+}
