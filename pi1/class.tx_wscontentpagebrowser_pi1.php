@@ -166,10 +166,8 @@ class tx_wscontentpagebrowser_pi1 extends tslib_pibase {
     // Get default configuration
     $conf = $GLOBALS['TSFE']->tmpl->setup['plugin.']['tx_pagebrowse_pi1.'];    
     // Modify this configuration
-    $conf += array(
-      'pageParameterName' => $this->prefixId . '|page',
-      'numberOfPages' => $numberOfPages,
-    );
+    $conf['pageParameterName'] = $this->prefixId . '|page';
+    $conf['numberOfPages'] = $numberOfPages;
         
     return $this->cObj->cObjGetSingle('USER', $conf);    
   }
